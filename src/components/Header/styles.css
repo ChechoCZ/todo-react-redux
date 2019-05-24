@@ -1,0 +1,12 @@
+.todo-header {
+  background: #e4e4e4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+  height: 50px;
+}
+
+.todo-header h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
