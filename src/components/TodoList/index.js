@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -16,6 +17,14 @@ const TodoList = ({ todos, completeTodo }) => (
     </ul>  
   </div>  
 );
+
+TodoList.propTypes = {
+  todos: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
+    text: PropTypes.string,
+    completed: PropTypes.bool
+  })).isRequired
+}
 
 const mapStateToProps = state => ({
   todos: state.todos

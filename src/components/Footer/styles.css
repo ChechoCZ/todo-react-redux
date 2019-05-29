@@ -1,0 +1,20 @@
+.todo-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: #e4e4e4;
+  height: 50px;
+}
+
+.todo-footer p {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+

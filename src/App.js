@@ -8,6 +8,7 @@ import './App.css';
 import Header from './components/Header';
 import TodoList from './components/TodoList';
 import AddTodo from './components/AddTodo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <TodoList />
       <AddTodo />
+      <Footer />
     </Provider>
   );
 }
